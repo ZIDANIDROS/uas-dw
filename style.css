@@ -163,6 +163,9 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+  .container h2 {
+    display: none;
+  }
   .album-bawah1 {
     display: flex;
   }
@@ -198,6 +201,10 @@ body {
   }
 
   .gambaratas svg {
+    display: none;
+  }
+
+  .gambar4 svg {
     display: none;
   }
 }
