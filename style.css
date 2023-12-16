@@ -1,0 +1,203 @@
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border-color: #4d2c5e;
+  background-color: #4d2c5e;
+}
+
+.btn:hover {
+  font-weight: 800;
+  line-height: 135%;
+  color: #4d2c5e;
+  background-color: #fff;
+}
+
+.herosection {
+  background-image: url('assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+
+.herosection-items {
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
+.atas {
+  color: var(--Primary-Black, #050c26);
+  font-family: Roboto;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 135%; /* 94.5px */
+}
+
+.bawah {
+  margin-left: 500%;
+  color: #ff7426;
+  font-family: Roboto;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 135%;
+}
+
+.bio {
+  color: #8a8a8a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 171%;
+  width: 50%;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  background: #fff;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-container:hover > .search-input {
+  width: 400px;
+}
+
+.search-container .search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.8s;
+}
+
+.search-container .search-btn .fas {
+  color: #4d2c5e;
+}
+
+.search-container:hover {
+  animation: hoverShake 0.15s linear 3;
+}
+
+@media only screen and (max-width: 480px) {
+  .herosection {
+    height: 400px;
+  }
+
+  .herosection-items {
+    width: 95%;
+  }
+
+  .atas {
+    margin-top: 0px;
+  }
+
+  .bawah {
+    margin-right: 1px;
+  }
+
+  .atas,
+  .bawah {
+    font-size: 50px;
+    line-height: 110%;
+  }
+
+  .bio {
+    margin-top: 50px;
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .search-container:hover > .search-input {
+    width: 300px;
+  }
+}
+
+.firstsection-fluid .album {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 29.05px 51.875px;
+  align-items: flex-start;
+  gap: 6.917px;
+  border-radius: 6.917px 0px 0px 6.917px;
+  background: #f5f6f8;
+  box-shadow: 0px 10.375px 55.333px 0px rgba(0, 0, 0, 0.1);
+}
+
+.album .album-bawah1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 41.5px;
+}
+
+.gambar3 img {
+  width: 130.033px;
+  height: 199.2px;
+}
+
+@media only screen and (max-width: 480px) {
+  .album-bawah1 {
+    display: flex;
+  }
+  .tulisanbuku {
+    display: none;
+  }
+
+  .gambar3 {
+    display: flex;
+  }
+
+  .gambar3 .col img {
+    width: 50px;
+    height: 90px;
+  }
+
+  .gambar3 .col h4 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+
+  .gambar3 .col p {
+    display: none;
+  }
+
+  .gambar3 .col svg {
+    display: none;
+  }
+
+  .col img {
+    width: 100px;
+  }
+
+  .gambaratas svg {
+    display: none;
+  }
+}
