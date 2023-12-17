@@ -14,7 +14,7 @@ Yesi Agustin           - 4522210023 <br><br>
 # Inspirasi Kita
 Gramedia.com 
 
-#Fitur Khusus 
+# Fitur Khusus 
 - Fitur search
 - Fitur Recomendation
 - Fitur Penilaian Pengguna
