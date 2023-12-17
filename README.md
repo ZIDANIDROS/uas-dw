@@ -1,3 +1,24 @@
+# My Team
+Husein Zidan          	- 4522210012 <br><br>
+Zahra Jane Arnecia 	   - 4522210028 <br><br>
+Lutfiah Rizka S       	- 4522210019 <br><br>
+Yesi Agustin           - 4522210023 <br><br>
+
+# Product Profile
+
+- Judul Website: Chapter's Bookstore.com
+
+- Deskripsi Konsep Web:
+ Chapter's Bookstore merupakan sebuah e-commerce seperti toko buku online yang menjual berbagai macam genre dan pilihan buku.
+
+# Inspirasi Kita
+Gramedia.com 
+
+#Fitur Khusus 
+- Fitur search
+- Fitur Recomendation
+- Fitur Penilaian Pengguna
+
 # uas-dw
 tugas kuliah
 ```bash
