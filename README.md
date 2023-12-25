@@ -14,8 +14,8 @@ Yesi Agustin           - 4522210023 <br><br>
  Chapter's Bookstore merupakan sebuah e-commerce seperti toko buku online yang menjual berbagai macam genre dan pilihan buku.
 
 - Logo web :
-<br>
-![logo](https://github.com/ZIDANIDROS/uas-dw/blob/main/logo.ico)
+<img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/logo.ico" alt="logo" align="bottom">
+
 
 # Inspirasi Kita
 Gramedia.com 
