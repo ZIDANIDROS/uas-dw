@@ -15,6 +15,10 @@ body {
   background-color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 .herosection {
   background-image: url('assets/bg.jpg');
   background-size: cover;
@@ -268,4 +272,26 @@ footer {
 
 .author3 {
   font-size: 18px;
+}
+
+.card1 {
+  transition: transform 0.3s ease;
+}
+
+.card1:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 480px) {
+  .div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: none;
+  }
+}
+
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
