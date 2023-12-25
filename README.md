@@ -60,95 +60,92 @@ html
             │   ├── div (row-1 mb-5)
             │   │   ├── h3 (Book by Genre)
             │   │   └── p (All Genres, Business)
-            │   ├── div (row-2 mt-5)
-            │   │   ├── h3 (Recommendations)
-            │   │   └── p (Artist of the Month)
-            │   ├── div (row-1 mb-5)
-            │   │   ├── h3 (Book by Genre)
-            │   │   └── p (All Genres, Business)
             │   └── div (row-2 mt-5)
             │       ├── h3 (Recommendations)
             │       └── p (Artist of the Month)
             │
-            └── div (album col-sm-8 col-sm-3)
-                ├── div (album row)
-                │   ├── h2 (Populer)
-                │   └── div (album-bawah1)
-                │       ├── div (container)
-                │       │   └──  div (row row-cols-2)
-                │       │       ├── div (gambaratas)
-                │       │       │   └── (book details)
-                │       │       ├── div (gambaratas)
-                │       │       │   └──  (book details)
-                │       │       ├── div (gambaratas)
-                │       │       │   └── (book details)
-                │       │       └── div (gambaratas)
-                │       │           └──  (book details)
-                │       └── div (container)
-                │           └── div (row row-cols-2)
-                │               ├── div (gambaratas)
-                │               │   └── (book details)
-                │               ├── div (gambaratas)
-                │               │   └──  (book details)
-                │               ├── div (gambaratas)
-                │               │   └── (book details)
-                │               └── div (gambaratas)
-                │                   └──  (book details)
-                ├── div (album row)
-                │   ├── h2 (recomended)
-                │   └── div (album-bawah1)
-                │   │    └── div (container)
-                │   │        └── div (row row-cols-2)
-                │   │            ├── div (gambaratas)
-                │   │            │   └── (book details)
-                │   │            ├── div (gambaratas)
-                │   │            │   └──  (book details)
-                │   │            ├── div (gambaratas)
-                │   │            │   └── (book details)
-                │   │            └──div (gambaratas)
-                │   │                └──  (book details)
-                │   ├── h2 (populer)
-                │   └── div (album-bawah1)
-                │        └── div (container)
-                │            └── div (row row-cols-2)
-                │                ├── div (gambaratas)
-                │                │   └── (book details)
-                │                ├── div (gambaratas)
-                │                │   └──  (book details)
-                │                ├── div (gambaratas)
-                │                │   └── (book details)
-                │                └──div (gambaratas)
-                │                    └──  (book details)
-                │
-                └── div (album row)
-                    ├── h2 (this new story)
-                    └── div (album-bawah1)
-                        └── div (container)
-                            └── div (row row-cols-2)
-                                ├── div (gambaratas)
-                                │   └── (book details)
-                                ├── div (gambaratas)
-                                │   └──  (book details)
-                                ├── div (gambaratas)
-                                │   └── (book details)
-                                └──div (gambaratas)
-                                    └──  (book details)
-                
-└── footer
-    └── div (container text-center)
-        └── div (footerisi row align-items-start)
-            ├── div (col text-start d-flex flex-column)
-            │   ├── h5 (Chapter's Bookstore)
-            │   └── p (Find your favorite books...)
-            ├── div (col)
-            │   └── div (container text-start)
-            │       └── div (col align-items-start)
-            │           ├── h5 (Contact us)
-            │           ├── p (chapters.bookstore@gmail.com)
-            │           ├── p (@chaptersbooks)
-            │           └── p (021-812-6634)
-            └── div (col5)
-                └── p (Chapter's Bookstore All Right Reserved, 2023)
+            └── div.album.col-sm-8.col-sm-3
+                ├── div.col
+                │   └── div.album.row.row-cols-1
+                │       ├── h2 (Recommended)
+                │       └── div.row.row-cols-1.row-cols-md-2.g-4
+                │           ├── div.col
+                │           │   └── div.card.mb-3
+                │           │       └── div.row.g-0
+                │           │           ├── div.col-md-4
+                │           │           │   └── img.img-fluid.rounded-start.rounded-end
+                │           │           └── div.col-md-8
+                │           │               └── div.card-body
+                │           ├── div.col
+                │           │   └── div.card.mb-3
+                │           │       └── div.row.g-0
+                │           │           ├── div.col-md-4
+                │           │           │   └── img.img-fluid.rounded-start.rounded-end
+                │           │           └── div.col-md-8
+                │           │               └── div.card-body
+                │           ├── div.col
+                │           │   └── div.card.mb-3
+                │           │       └── div.row.g-0
+                │           │           ├── div.col-md-4
+                │           │           │   └── img.img-fluid.rounded-start.rounded-end
+                │           │           └── div.col-md-8
+                │           │               └── div.card-body
+                │           └── div.col
+                │               └── div.card.mb-3
+                │                   └── div.row.g-0
+                │                       ├── div.col-md-4
+                │                       │   └── img.img-fluid.rounded-start.rounded-end
+                │                       └── div.col-md-8
+                │                           └── div.card-body
+                ├── div.album.row.row-cols-1.p-5.mt-5
+                    ├── h2 (This New Story)
+                    └── div.row.row-cols-1.row-cols-md-2.g-4
+                        ├── div.col
+                        │   └── div.card.mb-3
+                        │       └── div.row.g-0
+                        │           ├── div.col-md-4
+                        │           │   └── img.img-fluid.rounded-start.rounded-end
+                        │           └── div.col-md-8
+                        │               └── div.card-body
+                        ├── div.col
+                        │   └── div.card.mb-3
+                        │       └── div.row.g-0
+                        │           ├── div.col-md-4
+                        │           │   └── img.img-fluid.rounded-start.rounded-end
+                        │           └── div.col-md-8
+                        │               └── div.card-body
+                        ├── div.col
+                        │   └── div.card.mb-3
+                        │       └── div.row.g-0
+                        │           ├── div.col-md-4
+                        │           │   └── img.img-fluid.rounded-start.rounded-end
+                        │           └── div.col-md-8
+                        │               └── div.card-body
+                        └── div.col
+                            └── div.card.mb-3
+                                └── div.row.g-0
+                                    ├── div.col-md-4
+                                    │   └── img.img-fluid.rounded-start.rounded-end
+                                    └── div.col-md-8
+                                        └── div.card-body
+
+
+                         
+         └── footer
+             └── div (container text-center)
+                 └── div (footerisi row align-items-start)
+                     ├── div (col text-start d-flex flex-column)
+                     │   ├── h5 (Chapter's Bookstore)
+                     │   └── p (Find your favorite books...)
+                     ├── div (col)
+                     │   └── div (container text-start)
+                     │       └── div (col align-items-start)
+                     │           ├── h5 (Contact us)
+                     │           ├── p (chapters.bookstore@gmail.com)
+                     │           ├── p (@chaptersbooks)
+                     │           └── p (021-812-6634)
+                     └── div (col5)
+                         └── p (Chapter's Bookstore All Right Reserved, 2023)
 
 
 
