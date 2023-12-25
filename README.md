@@ -6,6 +6,8 @@ Yesi Agustin           - 4522210023 <br><br>
 
 # Product Profile
 
+- Topik : Mempermudah akses pembelian buku dengan e-commerce Chapter’s Bookstore
+
 - Judul Website: Chapter's Bookstore.com
 
 - Deskripsi Konsep Web:
