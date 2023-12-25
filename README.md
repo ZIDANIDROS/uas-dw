@@ -129,10 +129,10 @@ html
                                     ├── div.col-md-4
                                     │   └── img.img-fluid.rounded-start.rounded-end
                                     └── div.col-md-8
-                                        └── div.card-body
-
-
-                         
+         │                              └── div.card-body
+         │
+         │
+         │               
          └── footer
              └── div (container text-center)
                  └── div (footerisi row align-items-start)
