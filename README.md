@@ -25,6 +25,8 @@ Gramedia.com
 - Pembelian Buku
 - Fitur Recomendation
 - Fitur Penilaian Pengguna
+- Fitur Populer
+- Fitur This New Story
 
 # Tree
 ```bash
