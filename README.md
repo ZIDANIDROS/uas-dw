@@ -160,3 +160,10 @@ html
 
 ```
 
+# Tampilan Figma
+- Desktop
+<img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/screenshoot/desktop.JPG" alt="logo" align="bottom">
+- Mobile
+<img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/screenshoot/mobile.JPG" alt="logo" align="bottom">
+- UI kit
+<img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/screenshoot/uikit.JPG" alt="logo" align="bottom">
