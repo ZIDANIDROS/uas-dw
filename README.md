@@ -22,6 +22,7 @@ Gramedia.com
 
 # Fitur Khusus 
 - Fitur search
+- Pembelian Buku
 - Fitur Recomendation
 - Fitur Penilaian Pengguna
 
